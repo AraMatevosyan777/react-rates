@@ -1,13 +1,13 @@
 import React from 'react';
 import './Footer.css';
+import './FooterMedia.css';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFacebookF,faTwitter,faGooglePlusG,faLinkedinIn,faInstagram,faPinterest } from '@fortawesome/free-brands-svg-icons';
 
 const Footer = () => {
     return (
-        <footer className="page-footer font-small cyan darken-3 bg-dark">
-            <div className="container">
-                <div className="socialItems text-light">
+        <footer className="footer">
+            <div className="socialItems">
                             <div>
                                 <a href="#">
                                 <FontAwesomeIcon icon={faFacebookF}/>
@@ -39,11 +39,7 @@ const Footer = () => {
                                 </a>
                             </div>
                         </div>
-            </div>
-
-            <div className="footer-copyright text-center py-3 text-light">© 2020 React Rates App
-            </div>
-
+            <div className="footerText">© 2020 React Rates App</div>
         </footer>
     )
 }

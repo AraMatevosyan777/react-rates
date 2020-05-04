@@ -1,0 +1,14 @@
+.about{
+    width: 100%;
+    padding: 50px;
+    background-color: #5f99cf;
+    color: white;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.about *{
+    margin-bottom: 20px;
+}

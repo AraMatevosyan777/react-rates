@@ -1,0 +1,102 @@
+.baseValue{
+    display: flex;
+    align-items: center;
+}
+.baseValue h4{
+    margin-right: 10px;
+}
+.baseValue select{
+    padding: 5px;
+    /* font-size: 15px; */
+    border: none;
+    background-color: #5f99cf;
+    outline: none;
+    color: white;
+    font-weight: normal;
+}
+.baseValue select option{
+    font-weight: bold;
+    direction: rtl;
+    background-color: #5f99cf;
+}
+/* --------------------- */
+
+.card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 30px;
+    margin: 5px;
+    background-color: #cee3f8;
+}
+.card-body{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.card-body h3{
+    width: 100%;
+    color: #336699;
+}
+.card-body h4{
+    width: 100%;
+    text-align: right;
+    color: #5f99cf;
+}
+/* ----------------------- */
+
+.calculator{
+    width: 100%;
+    background-color: #cee3f8;
+}
+.calculatorHeader{
+    background-color: #5f99cf;
+    color: white;
+    padding: 20px;
+    border-bottom: 1px solid #336699;
+}
+.calculatorBody{
+    padding: 40px 20px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.calculatorForm{
+    width: 50%;
+}
+.calculatorForm input{
+    width: 80%;
+    padding: 10px;
+    border: 1px solid #336699;
+}
+.calculatorForm select{
+    width: 20%;
+    padding: 10px 0 10px 5px;
+    outline: none;
+}
+.calculatorForm select option{
+    background-color: #cee3f8;
+    color: #336699;
+    font-weight: bold;
+}
+.result{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    width: 50%;
+    padding-left: 30px;
+}
+.result h3{
+    margin-right: 10px;
+}
+/* ------------------------------- */
+.loader{
+    display: flex;
+    justify-content: center;
+}
+.loader img{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 50px;
+}

@@ -1,8 +1,8 @@
 import React from 'react';
 import Home from './Home';
 import { connect } from 'react-redux';
-import { requestRates,requestBaseValue } from '../../../redux/rateReducer';
-import Preloader from '../../common/Loader/loader';
+import { requestRates,requestBaseValue } from '../../redux/rateReducer';
+import Preloader from '../common/Loader/loader';
 
 class HomeContainer extends React.Component {
     componentDidMount() {

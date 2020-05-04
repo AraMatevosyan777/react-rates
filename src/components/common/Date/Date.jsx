@@ -3,7 +3,7 @@ import React from 'react';
 const Date = (props) => {
     return(
         <div>
-            <h5 className='mr-2'>Rates {props.date}</h5>
+            <h4>Rates {props.date}</h4>
         </div>
     )
 }

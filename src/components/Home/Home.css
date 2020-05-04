@@ -1,0 +1,27 @@
+.homePage{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.homeHeader{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 30px;
+}
+.slider{
+    width: 100%;
+    margin-bottom: 80px;
+}
+@media (max-width: 600px){
+    .homeHeader{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .slider{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+}

@@ -5,25 +5,21 @@ const Calculator = (props) => {
     let [result, setResult] = useState(0)
 
     const onFormChange = (FormData) => {
+        console.log(FormData)
         let result = FormData.currentValue / FormData.currentRate
         setResult(result.toFixed(2))
     }
 
     return (
-        <div className='d-flex justify-content-center mb-5'>
-            <div className="card w-100">
-                <div className="card-header">
-                    <h3>
-                    Exchange calculator
-                    </h3>
-                </div>
-                <div className="card-body d-flex align-items-center">
-                    <FormContainer onChange={onFormChange} rates={props.rates} />
-                    <div className='ml-5 d-flex align-items-center'>
-                        <h5 className='mr-2'>Result:</h5>
-                        <h4 className='display-6'>{!result || isNaN(result) ? '0' : result}</h4>
-                        &nbsp;<h4 className='display-6'>{props.base}</h4>
-                    </div>
+        <div className='calculator'>
+            <div className='calculatorHeader'>
+                <h2>Exchange calculator</h2>
+            </div>
+            <div className="calculatorBody">
+                <FormContainer onChange={onFormChange} rates={props.rates} />
+                <div className="result">
+                    <h3>Result:</h3>
+                    <h2>{!result || isNaN(result) ? '0' : result}</h2>&nbsp;<h2>{props.base}</h2>
                 </div>
             </div>
         </div>

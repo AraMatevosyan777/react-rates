@@ -1,0 +1,12 @@
+@media(max-width: 550px){
+    .socialItems div{
+        font-size: 20px;
+        padding: 10px;
+    }
+    .socialItems{
+        padding: 15px;
+    }
+    .footerText{
+        font-size: 13px;
+    }  
+}
