@@ -13,7 +13,7 @@ const Home = (props) => {
                 <Date date={props.date} />
                 <BaseValue rates={props.rates} onChange={props.onValueChange} base={props.base} />
             </div>
-            <SlickCard rates={props.rates}/>
+            <SlickCard rates={props.rates} base={props.base}/>
             <Calculator rates={props.rates} base={props.base} />
         </div>
     );
