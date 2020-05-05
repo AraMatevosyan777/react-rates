@@ -6,7 +6,7 @@ import '../common.css';
 const Preloader = (props) => {
     return (
         <div className='loader'>
-           <img style={{width: 50 + 'px'}} src={Loader}/>
+           <img src={Loader}/>
         </div>
     );
 }

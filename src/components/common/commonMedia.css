@@ -1,48 +1,42 @@
-@media (max-width: 899px){
-    .card-body h4{
-        font-size: 13px;
-    }
-    .c .card{
-        padding: 20px 15px;
-    }
-}
 @media (max-width: 799px){
-    .c .card{
-        padding: 15px 10px;
-    }
     .calculatorBody{
         display: flex;
         flex-direction: column;
         justify-content: center;
     }
-}
-@media (max-width: 500px){
-    .card-body h3{
-        font-size: 15px;
+    .calculatorForm{
+        width: 100%;
+        justify-content: center;
+        display: flex;
     }
-    .card-body h4{
-        font-size: 10px;
-    }
-    .c .card{
-        padding: 10px 5px;
+    .result{
+        width: 100%;
+        padding-left: 0;
+        display: flex;
+        justify-content: center;
     }
 }
 @media (max-width: 399px){
-    .card-body h3{
-        font-size: 13px;
+    .calculatorHeader{
+        padding: 10px;
     }
-    .card-body h4{
-        font-size: 10px;
+    .calculatorHeader h2{
+        font-size: 18px;
     }
-    .c .card{
-        padding: 15px 5px;
+    .calculatorBody{
+        padding: 25px;
     }
-}
-@media (max-width: 310px){
-    .card-body h3{
-        font-size: 11px;
+    .calculatorBody input{
+        padding: 5px;
+        width: 60%;
+        margin-bottom: 10px;
     }
-    .c .card{
-        padding: 10px 2px;
+    .calculatorBody select{
+        padding: 5px;
+        width: 40%;
+        margin-bottom: 10px;
+    }
+    .loader img{
+        width: 30px;
     }
 }

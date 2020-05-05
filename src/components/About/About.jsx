@@ -5,9 +5,7 @@ const About = () => {
     return (
         <div className="about">
             <h1>This application is created to know the exchange rates.</h1>
-            <div>
-                <span>date of creation </span> <strong>04.05.2020</strong>
-            </div>
+            <span>date of creation </span> <strong>04.05.2020</strong>
             <p>Version: 1.0.0.1</p>
             <address>Armenia Yerevan</address>
             <p>Email: matevossyan77@gmail.com</p>

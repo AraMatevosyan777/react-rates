@@ -1,5 +1,6 @@
 import React from 'react';
-import '../commonMedia.css';
+import './SlickCardMedia.css';
+import './SlickCard.css';
 
 const Card = (props) => {
     return (

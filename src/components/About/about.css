@@ -5,10 +5,35 @@
     color: white;
     border-radius: 5px;
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
 }
 .about *{
     margin-bottom: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+@media(max-width: 499px){
+    .about{
+        padding: 30px;
+    }
+    .about h1{
+        font-size: 20px;
+    }
+    .about *{
+        margin-bottom: 10px;
+    }
+}
+@media(max-width: 399px){
+    .about{
+        padding: 20px;
+    }
+    .about h1{
+        font-size: 17px;
+    }
+    .about p{
+        font-size: 12px;
+    }
 }

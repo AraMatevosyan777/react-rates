@@ -1,0 +1,28 @@
+.slider{
+    width: 100%;
+    margin-bottom: 80px;
+}
+.card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 30px;
+    margin: 5px;
+    background-color: #cee3f8;
+}
+.card-body{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.card-body h3{
+    width: 100%;
+    color: #336699;
+}
+.card-body h4{
+    width: 100%;
+    text-align: right;
+    color: #5f99cf;
+}
